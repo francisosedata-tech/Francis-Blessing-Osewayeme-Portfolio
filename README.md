@@ -6,7 +6,7 @@ Data Analyst passionate about transforming messy data into clear, actionable ins
 🚀 Featured Projects
 
 Real Estate Growth Analysis Dashboard
-Power BI Dashboard | [View Project](./projects/real-estate/)
+Power BI Dashboard | [View Project Real Estate Project]
 
 - Analyzed 8K customers with 42.69% churn rate
 - Apartments lead with higher average revenue per transaction (18.18) vs Houses (14.80)
