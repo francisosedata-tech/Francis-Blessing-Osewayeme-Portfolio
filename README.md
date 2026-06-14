@@ -29,8 +29,8 @@
 ## 📫 Let's Connect
 
 - X: [@DataAnalystOse](https://x.com/DataAnalystOse)
-- LinkedIn: [Your LinkedIn Profile]
-- Email: your.email@example.com
+- LinkedIn: [@Francis Ose] [https://www.linkedin.com/in/ose-francis-0a3796411?utm_source=share_via&utm_content=profile&utm_medium=member_ios]
+- Email: francisose.data@gmail.com
 
 ---
 
