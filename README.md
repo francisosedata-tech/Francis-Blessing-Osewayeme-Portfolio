@@ -1,6 +1,6 @@
 # Francis Osewayeme | Data Analyst
 <div align="center">
-  <img src="images/profile-photo.jpg" alt="Francis Ose - Data Analyst" width="200" style="border-radius: 50%;">
+  <img src="images/profile.jpg" alt="Francis Ose - Data Analyst" width="200" style="border-radius: 50%;">
 </div>
 
 <h1 align="center">Hi, I'm Francis Ose 👋</h1>
