@@ -1,9 +1,5 @@
 # Francis Osewayeme | Data Analyst
-<div align="center">
-  <img src="images/img_0005.jpeg" ... >  
-  <h1>Hi, I'm Francis Ose 👋</h1>
-  <p>Data Analyst transforming messy data into actionable business insights</p>
-</div>
+![Francis Ose Profile](img_0005.jpeg)
 *Data Analyst passionate about transforming messy data into clear, actionable insights.*
 
 ---
