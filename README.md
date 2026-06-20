@@ -29,8 +29,8 @@
 - Apartments lead in both sales volume and average revenue per transaction.
 - Strong revenue peak in June 2022, but volatility observed afterward.
 - Recommendation: Focus on customer retention by property type, seasonal campaigns, and better product mix to reduce churn rate to 25%.
-
-[View Full Project Report](https://github.com/francisosedata-tech/Ose_portfolio/blob/main/reports/Real-Estate-Growth-Analysis-Report.md) 
+  ---
+[View Full Project Report](https://github.com/francisosedata-tech/Ose_portfolio/blob/main/reports/real-estate-analysis.pdf) 
 ---
 
 ## 🛠️ Skills & Tools
