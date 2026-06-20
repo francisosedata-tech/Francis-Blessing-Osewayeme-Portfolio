@@ -5,18 +5,32 @@
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### Real Estate Growth Analysis Dashboard
-**Power BI Dashboard** | [View Project](./projects/real-estate/)
 
-- Analyzed **8K customers** with **42.69%** churn rate
-- Apartments lead with higher average revenue per transaction (**18.18**) vs Houses (**14.80**)
-- Overall Revenue Growth: **+24.25%**
-- Highlighted Agent A00004 who generates highest revenue without highest sales count by focusing on valuable properties
+**Dashboard 1: Overview & Key Metrics**
+![Real Estate Growth Analysis Dashboard 1](images/real-estate-dashboard1.png)
 
-**Technologies**: Power BI, DAX, Power Query
+**Key Insights:**
+- Total Customers: 8K | Churned Customers: 3K | Churn Rate: 42.69%
+- Total Revenue: 54bn
+- Best Performing Agent: A00004
+- Best Performing City: Dhaka
+- Best Performing Property: Apartment
 
+---
+
+**Dashboard 2: Executive Summary & Deep Insights**
+![Real Estate Growth Analysis Dashboard 2](images/real-estate-dashboard2.png)
+
+**Key Insights:**
+- Revenue Growth: **24.25%**
+- Apartments lead in both sales volume and average revenue per transaction.
+- Strong revenue peak in June 2022, but volatility observed afterward.
+- Recommendation: Focus on customer retention by property type, seasonal campaigns, and better product mix to reduce churn rate to 25%.
+
+[View Full Project Report](https://github.com/yourusername/Ose_portfolio/blob/main/reports/real-estate-analysis.pdf) <!-- Update link if you add a report -->
 ---
 
 ## 🛠️ Skills & Tools
