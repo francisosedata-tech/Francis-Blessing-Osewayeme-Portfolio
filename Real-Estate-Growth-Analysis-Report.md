@@ -4,7 +4,7 @@
 **Date:** June 2026  
 **Project:** Internship Data Analysis Project
 
-!(Real Estate dashboard2.png)
+![Real Estate Growth Dashboard 1](Screenshot 2026-06-12 100710.png)
 
 ## Executive Summary
 
@@ -19,7 +19,7 @@ This analysis explores real estate sales performance using interactive Power BI 
 - **Best Performing City**: Dhaka
 - **Best Performing Property**: Apartment
 
-![Real Estate Growth Dashboard 2](images/real-estate-dashboard2.png)
+![Real Estate Growth Dashboard 2](Real Estate dashboard2.png)
 
 ## Key Insights
 
@@ -57,6 +57,7 @@ This analysis explores real estate sales performance using interactive Power BI 
 
 ---
 
+[WhatsApp](https://wa.me/2348162572994)
 **Francis Ose**  
 Data Analyst | Turning messy data into actionable business insights  
-[LinkedIn](https://www.linkedin.com/in/ose-francis-0a3796411?) | [X/Twitter](https://x.com/DataAnalystOse) | [Email](Francisose.data@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/ose-francis-0a3796411?) | [X/Twitter](https://x.com/DataAnalystOse) | [Email](Francisose.data@gmail.com) | [WhatsApp](https://wa.me/2348162572994)
