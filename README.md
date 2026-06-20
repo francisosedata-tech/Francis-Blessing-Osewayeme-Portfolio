@@ -10,7 +10,7 @@
 ### Real Estate Growth Analysis Dashboard
 
 **Dashboard 1: Overview & Key Metrics**
-![Real Estate Growth Analysis Dashboard [1](https://github.com/francisosedata-tech/Ose_Portfolio/blob/34b6618344af6d19726e71dcc4837ae9e29bf12e/Real%20Estate%20dashboard2.png)
+![Real Estate Growth Analysis Dashboard 
 
 **Key Insights:**
 - Total Customers: 8K | Churned Customers: 3K | Churn Rate: 42.69%
@@ -22,7 +22,7 @@
 ---
 
 **Dashboard 2: Executive Summary & Deep Insights**
-![Real Estate Growth Analysis Dashboard 2](Real Estate dashboard2.png)
+![Real Estate Growth Analysis Dashboard 2](https://github.com/francisosedata-tech/Ose_Portfolio/blob/34b6618344af6d19726e71dcc4837ae9e29bf12e/Real%20Estate%20dashboard2.png)
 
 **Key Insights:**
 - Revenue Growth: **24.25%**
