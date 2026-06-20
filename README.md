@@ -1,5 +1,6 @@
 # Francis Osewayeme | Data Analyst
-<div align="center"><img src="images/img_0005.jpeg" ... >  alt="Francis Ose - Data Analyst" width="220" style="border-radius: 50%; border: 4px solid #0d6efd;">
+<div align="center">
+  <img src="images/img_0005.jpeg" ... >  alt="Francis Ose - Data Analyst" width="220" style="border-radius: 50%; border: 4px solid #0d6efd;">
   <h1>Hi, I'm Francis Ose 👋</h1>
   <p>Data Analyst transforming messy data into actionable business insights</p>
 </div>
