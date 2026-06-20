@@ -57,7 +57,7 @@ This analysis explores real estate sales performance using interactive Power BI 
 
 ---
 
-[WhatsApp](https://wa.me/2348162572994)
+
 **Francis Ose**  
 Data Analyst | Turning messy data into actionable business insights  
 [LinkedIn](https://www.linkedin.com/in/ose-francis-0a3796411?) | [X/Twitter](https://x.com/DataAnalystOse) | [Email](Francisose.data@gmail.com) | [WhatsApp](https://wa.me/2348162572994)
