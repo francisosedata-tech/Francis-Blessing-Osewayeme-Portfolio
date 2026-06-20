@@ -30,7 +30,7 @@
 - Strong revenue peak in June 2022, but volatility observed afterward.
 - Recommendation: Focus on customer retention by property type, seasonal campaigns, and better product mix to reduce churn rate to 25%.
   ---
-[View Full Project Report](https://github.com/francisosedata-tech/Ose_portfolio/blob/main/reports/real-estate-analysis.pdf) 
+[View Full Project Report](https://github.com/francisosedata-tech/Ose_Portfolio/blob/a9dd75445662a899fb2b23a472a4e6335f58ccb4/Real-Estate-Growth-Analysis-Report.md)
 ---
 
 ## 🛠️ Skills & Tools
