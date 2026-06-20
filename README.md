@@ -1,5 +1,6 @@
 # Francis Osewayeme | Data Analyst
-![Francis Ose Profile](img_0005.jpeg)
+![Francis Ose Profile](IMG_0005.jpeg)
+
 *Data Analyst passionate about transforming messy data into clear, actionable insights.*
 
 ---
