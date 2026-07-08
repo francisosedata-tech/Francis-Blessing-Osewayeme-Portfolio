@@ -19,7 +19,7 @@ This analysis explores real estate sales performance using interactive Power BI 
 - **Best Performing City**: Dhaka
 - **Best Performing Property**: Apartment
 
-![Real Estate Growth Dashboard 2](Real Estate dashboard2.png)
+![Real Estate Growth Dashboard 2](https://github.com/francisosedata-tech/Ose_Portfolio/blob/af04c16a7c0aec037fed1a827160637a69979fb3/Screenshot%202026-06-12%20100710.png)
 
 ## Key Insights
 
