@@ -1,5 +1,5 @@
 # Francis Osewayeme | Data Analyst
-![Francis Ose Profile] https://github.com/francisosedata-tech/Task-1-Francis--Osewayeme/blob/94a35028601ac9656155f2eeea99d73c8199ed48/Profile%20photo.JPG.jpeg
+![Francis Ose Profile](https://github.com/francisosedata-tech/Task-1-Francis--Osewayeme/blob/94a35028601ac9656155f2eeea99d73c8199ed48/Profile%20photo.JPG.jpeg)
 
 *Data Analyst passionate about transforming messy data into clear, actionable insights.*
 
