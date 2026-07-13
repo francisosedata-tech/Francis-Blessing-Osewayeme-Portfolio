@@ -24,7 +24,7 @@ This analysis examines the relationship between social media usage, academic per
 5. *Sleep & Screen Time:* Average sleep ~6.45 hours; screen time ~1.74 hours — room for improvement.
 
 ## Visualizations
-(Embed your two dashboard images here with captions)
+(https://github.com/francisosedata-tech/Ose_Portfolio/blob/47d58b01bfd0474e0b2153b23a473c7f556e95bb/ccb740e6-9e5c-4ac6-8d8f-7a843d147e86.jpeg)  
 
 ## Recommendations
 - *Education Campaigns:* School programs on mindful social media use and sleep importance.
