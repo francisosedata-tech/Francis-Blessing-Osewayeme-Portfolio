@@ -42,7 +42,6 @@ SELECT
     COUNT(CASE WHEN depression_label = 1 THEN 1 END) * 100.0 / COUNT(*) AS depression_rate_pct
 FROM teen_mental_health;
 
-2. Depression Rate by Gender and Social Media Usage
 SELECT 
     gender,
     social_media_usage,
@@ -55,8 +54,6 @@ FROM teen_mental_health
 GROUP BY gender, social_media_usage
 ORDER BY depression_rate_pct DESC;
 
-3. Academic Performance vs Social Media Usage
-
 SELECT 
     social_media_usage,
     age_group,
@@ -66,6 +63,14 @@ SELECT
 FROM teen_mental_health
 GROUP BY social_media_usage, age_group
 ORDER BY avg_academic_performance DESC;.
+
+SELECT 
+    COUNT(*) AS high_risk_teens,
+    ROUND(AVG(stress_level), 2) AS avg_stress,
+    ROUND(AVG(anxiety_level), 2) AS avg_anxiety,
+    ROUND(AVG(addiction_level), 2) AS avg_addiction
+FROM teen_mental_health
+WHERE social_media_usage = 'High Usage';
 
 
 ## Recommendations
