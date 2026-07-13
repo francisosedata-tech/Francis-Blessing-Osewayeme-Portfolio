@@ -9,6 +9,26 @@ This analysis of 1,200 teens explores the interplay between *social media usage,
 
 *Key Business/Social Impact:* Early interventions can significantly improve teen wellbeing and academic outcomes.
 
+## Dataset
+- *File:* teen_mental_health_project.csv (1,000 records)  
+- *Download:* [teen_mental_health_project.csv](../teen_mental_health_project.csv)  
+- *Key Columns:* age, age_group, gender, daily_social_media_hours, social_media_usage, platform_usage, sleep_hours, screen_time_before_sleep, academic_performance, stress_level, anxiety_level, addiction_level, depression_label
+
+## SQL Queries Used
+
+I wrote the following SQL queries to explore and analyze the dataset:
+
+### 1. Overall Summary Statistics
+```sql
+SELECT 
+    COUNT(*) AS total_teens,
+    ROUND(AVG(daily_social_media_hours), 2) AS avg_social_media_hours,
+    ROUND(AVG(sleep_hours), 2) AS avg_sleep_hours,
+    ROUND(AVG(screen_time_before_sleep), 2) AS avg_screen_time,
+    ROUND(AVG(academic_performance), 2) AS avg_academic_performance,
+    ROUND(COUNT(CASE WHEN depression_label = 1 THEN 1 END) * 100.0 / COUNT(*), 2) AS depression_rate_pct
+FROM teen_mental_health;
+
 ## Key Metrics & Insights
 - *Total Teens Analyzed:* 1,200
 - *Depression Rate:* 2.58%
