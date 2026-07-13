@@ -5,7 +5,7 @@
 *Project Type:* Internship / Independent Data Analysis Project
 
 ## Executive Summary
-This analysis of 1,000 teens explores the interplay between *social media usage, academic performance, sleep patterns, and mental health indicators (stress, anxiety, addiction, depression). Using SQL for data extraction and Power BI for visualization, the study reveals moderate but concerning risks associated with high social media engagement. **Overall depression rate stands at 2.58%*, with females and high-usage teens most affected.
+This analysis of 1,200 teens explores the interplay between *social media usage, academic performance, sleep patterns, and mental health indicators (stress, anxiety, addiction, depression). Using SQL for data extraction and Power BI for visualization, the study reveals moderate but concerning risks associated with high social media engagement. **Overall depression rate stands at 2.58%*, with females and high-usage teens most affected.
 
 *Key Business/Social Impact:* Early interventions can significantly improve teen wellbeing and academic outcomes.
 
@@ -20,7 +20,8 @@ This analysis of 1,000 teens explores the interplay between *social media usage,
 
 *Visual Highlights:*
 ![Teen Mental Wellbeing Dashboard](https://github.com/francisosedata-tech/Ose_Portfolio/blob/47d58b01bfd0474e0b2153b23a473c7f556e95bb/ccb740e6-9e5c-4ac6-8d8f-7a843d147e86.jpeg)  
-![Academic Performance vs Social Media](Images/academic_performance_dashboard.png)
+![Academic Performance vs Social Media](https://github.com/francisosedata-tech/Ose_Portfolio/blob/193e0502beac0891f8ffd0a3058ed32b7e7985e0/ede51689-394d-4ea4-b93a-70983466548a.jpeg)
+
 
 *Core Findings:*
 - High social media usage correlates with elevated *stress (5.6+), **anxiety, and **addiction* levels.
