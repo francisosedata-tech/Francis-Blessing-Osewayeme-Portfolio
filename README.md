@@ -59,7 +59,7 @@
 ![Academic Performance Dashboard](https://github.com/francisosedata-tech/Ose_Portfolio/blob/193e0502beac0891f8ffd0a3058ed32b7e7985e0/ede51689-394d-4ea4-b93a-70983466548a.jpeg)
 
 
-**Dataset:** [Download teen_mental_health_dataset.csv](Teen-Mental-Health-Project/teen_mental_health_dataset.csv) 
+**Dataset:** [Download teen_mental_health_dataset.csv](https://github.com/francisosedata-tech/Ose_Portfolio/blob/9d3f7bc66de8bfc8118a2b4a5aaabc8b1ffe8aba/Teen_Mental_health_project.csv)
 
 **Key Insights:**
 - Overall depression rate: **2.58%** (with gender and social media usage breakdowns).
