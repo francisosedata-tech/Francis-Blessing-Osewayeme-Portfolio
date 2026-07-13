@@ -19,8 +19,7 @@ This analysis of 1,200 teens explores the interplay between *social media usage,
 I wrote the following SQL queries to explore and analyze the dataset:
 
 ### 1. Overall Summary Statistics
-
-
+*View:*(https://github.com/francisosedata-tech/Ose_Portfolio/blob/8415fe9f445a40559c12267fb732d46f67d9a5a0/sql.queries.sql)
 
 ## Key Metrics & Insights
 - *Total Teens Analyzed:* 1,200
