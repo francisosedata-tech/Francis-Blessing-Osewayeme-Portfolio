@@ -19,49 +19,7 @@ This analysis of 1,200 teens explores the interplay between *social media usage,
 I wrote the following SQL queries to explore and analyze the dataset:
 
 ### 1. Overall Summary Statistics
-```sql
-SELECT 
-    COUNT(*) AS total_teens,```
-    ROUND(AVG(daily_social_media_hours), 2) AS avg_social_media_hours,```
-    ROUND(AVG(sleep_hours), 2) AS avg_sleep_hours,```
-    ROUND(AVG(screen_time_before_sleep), 2) AS avg_screen_time,```
-    ROUND(AVG(academic_performance), 2) AS avg_academic_performance,```
-    ROUND(COUNT(CASE WHEN depression_label = 1 THEN 1 END) * 100.0 / COUNT(*), 2) AS depression_rate_pct```
-FROM teen_mental_health;
 
-### 2. Depression Rate by Gender and Social Media Usage
-SELECT 
-    gender,
-    social_media_usage,
-    COUNT(*) AS teen_count,
-    AVG(depression_label) * 100 AS depression_rate_pct,
-    AVG(stress_level) AS avg_stress,
-    AVG(anxiety_level) AS avg_anxiety,
-    AVG(addiction_level) AS avg_addiction
-FROM teen_mental_health
-GROUP BY gender, social_media_usage
-ORDER BY depression_rate_pct DESC;```
-
-**3. Academic Performance vs Social Media Usage**
-```sql
-social_media_usage,
-    age_group,
-    AVG(academic_performance) AS avg_academic_performance,
-    AVG(sleep_hours) AS avg_sleep_hours,
-    COUNT(*) AS teen_count
-FROM teen_mental_health
-GROUP BY social_media_usage, age_group
-ORDER BY avg_academic_performance DESC;```
-
-**4. High-Risk Teens Analysis**
-```sql
-SELECT 
-    COUNT(*) AS high_risk_teens,
-    ROUND(AVG(stress_level), 2) AS avg_stress,
-    ROUND(AVG(anxiety_level), 2) AS avg_anxiety,
-    ROUND(AVG(addiction_level), 2) AS avg_addiction
-FROM teen_mental_health
-WHERE social_media_usage = 'High Usage';```
 
 
 ## Key Metrics & Insights
