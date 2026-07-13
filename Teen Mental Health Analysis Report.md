@@ -29,7 +29,7 @@ SELECT
     ROUND(COUNT(CASE WHEN depression_label = 1 THEN 1 END) * 100.0 / COUNT(*), 2) AS depression_rate_pct
 FROM teen_mental_health;
 
-**2. Depression Rate by Gender and Social Media Usage**
+### 2. Depression Rate by Gender and Social Media Usage
 ```sql
 SELECT 
     gender,
