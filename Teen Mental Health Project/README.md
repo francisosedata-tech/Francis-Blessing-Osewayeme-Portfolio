@@ -20,7 +20,7 @@ Analysis of teenage mental health using a dataset of 1,200 records. Focused on t
 - Data storytelling & stakeholder recommendations
 
 ## Links
-- [Full Analysis Report](Teen-Mental-Health-Analysis-Report.md)
+- [Full Analysis Report](https://github.com/francisosedata-tech/Ose_Portfolio/blob/ffc255dda9fae757b877941cad19c778394baa3f/Teen%20Mental%20Health%20Analysis%20Report.md)
 - [View on Main README](../README.md#teen-mental-wellbeing-analysis)
 
 ---
