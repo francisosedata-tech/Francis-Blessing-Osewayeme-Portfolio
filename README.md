@@ -42,15 +42,6 @@
 - **Analysis**: DAX, Data Storytelling
 - **Version Control**: Git & GitHub
 
-## 📫 Let's Connect
-
-- X: [@DataAnalystOse](https://x.com/DataAnalystOse)
-- LinkedIn: [@Francis Ose] [https://www.linkedin.com/in/ose-francis-0a3796411?utm_source=share_via&utm_content=profile&utm_medium=member_ios]
-- Email: francisose.data@gmail.com
-
-
-
-
 
 ### Teen Mental Wellbeing Analysis (Power BI + SQL)
 **Project Overview:** Analyzed teen mental health dataset to explore correlations between social media usage, academic performance, sleep, stress, anxiety, addiction, and depression rates. Delivered interactive Power BI dashboards for insights and recommendations.
@@ -75,4 +66,11 @@
 
 **Tech Stack:** Power BI, DAX, Power Query, SQL  
 **View Full Report:** [Teen-Mental-Health-Analysis-Report.md](https://github.com/francisosedata-tech/Ose_Portfolio/blob/90763196b88712c49edf6f839aaa13029e20c27f/Teen%20Mental%20Health%20Analysis%20Report.md)
-**Files:** [Project Folder](link-to-folder)
+**Files:** [Project Folder](https://github.com/francisosedata-tech/Ose_Portfolio/tree/2d65b17de4bee958612600bf370f94fa86680b6b/Teen%20Mental%20Health%20Project)
+
+
+## 📫 Let's Connect
+
+- X: [@DataAnalystOse](https://x.com/DataAnalystOse)
+- LinkedIn: [@Francis Ose] [https://www.linkedin.com/in/ose-francis-0a3796411?utm_source=share_via&utm_content=profile&utm_medium=member_ios]
+- Email: francisose.data@gmail.com
