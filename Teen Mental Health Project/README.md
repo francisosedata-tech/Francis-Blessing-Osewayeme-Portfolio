@@ -1,7 +1,7 @@
 # Teen Mental Wellbeing Analysis Project
 
 ## Project Description
-Analysis of teenage mental health using a dataset of 1,000 records. Focused on the relationship between social media usage, academic performance, sleep patterns, and mental wellbeing indicators.
+Analysis of teenage mental health using a dataset of 1,200 records. Focused on the relationship between social media usage, academic performance, sleep patterns, and mental wellbeing indicators.
 
 ## Project Goals
 - Clean and analyze data using SQL
