@@ -1,7 +1,22 @@
 # Francis Osewayeme | Data Analyst
 ![Francis Ose Profile](https://github.com/francisosedata-tech/Task-1-Francis--Osewayeme/blob/94a35028601ac9656155f2eeea99d73c8199ed48/Profile%20photo.JPG.jpeg)
 
-*Data Analyst passionate about transforming messy data into clear, actionable insights.*
+## About Me
+
+I am *Francis Osewayeme*, a passionate Data Analyst dedicated to transforming messy data into clear, actionable insights and strategic recommendations that help stakeholders make informed decisions.
+
+I currently serve as *Data Analyst at PianoWella, where I deliver business intelligence solutions, build interactive dashboards, and provide data-driven recommendations to support organizational growth. In addition, I contribute as a **Voluntary Data Analyst with JCI Garden City*, applying my skills to community development, youth empowerment, and social impact initiatives.
+
+With expertise in Power BI, SQL, Power Query, and DAX, I specialize in exploratory data analysis, dashboard creation, and compelling data storytelling.
+
+*My Mission:* To leverage data as a powerful tool for positive change — empowering organizations and communities through insightful analysis and practical recommendations.
+
+---
+
+### What I Bring
+- *Technical Skills:* Power BI, SQL, Power Query, DAX, Excel, Git & GitHub
+- *Core Strengths:* Data cleaning & transformation, visualization, stakeholder communication, and delivering actionable recommendations
+- *Passion Areas:* Business intelligence, youth development, people analytics, and community impact
 
 ---
 
