@@ -12,7 +12,7 @@ Interactive Power BI dashboard analyzing real estate sales performance, revenue 
 ## Files in this Folder
 - Real-Estate-Growth-Analysis-Report.md → Full report
 - Images/ → Dashboard screenshots
-- Raw/processed data files (if available)
+- Raw/processed data files [View](https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/tree/8ce211a95d0b9d4089c4fe706513ee93f578daf7/Real%20estate%20dataset)
 
 ## Skills Demonstrated
 - Power BI Dashboard Development
