@@ -37,8 +37,7 @@ With expertise in Power BI, SQL, Power Query, and DAX, I specialize in explorato
 ---
 
 **Dashboard 2: Executive Summary & Deep Insights**
-![Real Estate Growth Analysis Dashboard 2](https://github.com/francisosedata-tech/Ose_Portfolio/blob/34b6618344af6d19726e71dcc4837ae9e29bf12e/Real%20Estate%20dashboard2.png)
-
+![Real Estate Growth Analysis Dashboard 2](https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/blob/bea592302b3a9713bd07a43e3854628b41bc65fa/Images/Dashboard2.png)
 **Key Insights:**
 - Revenue Growth: **24.25%**
 - Apartments lead in both sales volume and average revenue per transaction.
