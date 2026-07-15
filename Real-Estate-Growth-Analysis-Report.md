@@ -4,7 +4,7 @@
 **Date:** June 2026  
 **Project:** Internship Data Analysis Project
 
-![Real Estate Growth Dashboard 1](https://github.com/francisosedata-tech/Ose_Portfolio/blob/af04c16a7c0aec037fed1a827160637a69979fb3/Screenshot%202026-06-12%20100710.png)
+![Real Estate Growth Dashboard 1](https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/blob/051297e8cf311658ace815505f431a1ca78a720c/Images/Dashboard1.png)
 
 ## Executive Summary
 
