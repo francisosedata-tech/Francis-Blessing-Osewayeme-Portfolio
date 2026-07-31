@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Francis Osewayeme — Data Analyst Portfolio</title>
+<meta name="description" content="Francis Osewayeme — Data Analyst specializing in Power BI, SQL, and DAX. Portfolio of sales, real estate, and public health analytics projects.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #10162A;
+    --ink-soft: #2B3350;
+    --paper: #F6F4EF;
+    --paper-raised: #FFFFFF;
+    --line: #DEDACE;
+    --teal: #1E9E8E;
+    --teal-deep: #146F63;
+    --gold: #C88A2E;
+    --slate: #6A7086;
+    --max: 1080px;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+  }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; }
+  img { max-width: 100%; display: block; }
+  ::selection { background: var(--teal); color: #fff; }
+  :focus-visible { outline: 2.5px solid var(--teal-deep); outline-offset: 3px; }
+
+  h1, h2, h3 { font-family: 'Fraunces', serif; color: var(--ink); margin: 0; }
+
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 0 28px; }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--teal-deep);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .eyebrow::before { content: ''; width: 16px; height: 1.5px; background: var(--teal-deep); }
+
+  /* NAV */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(246, 244, 239, 0.86);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav {
+    max-width: var(--max); margin: 0 auto; padding: 18px 28px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .brand { font-family: 'Fraunces', serif; font-weight: 600; font-size: 19px; letter-spacing: -0.01em; text-decoration: none; }
+  .brand span { color: var(--teal-deep); }
+  .navlinks { display: flex; gap: 28px; list-style: none; margin: 0; padding: 0; font-size: 14.5px; }
+  .navlinks a { text-decoration: none; color: var(--ink-soft); font-weight: 500; transition: color 0.2s ease; }
+  .navlinks a:hover { color: var(--teal-deep); }
+  .nav-cta { background: var(--ink); color: var(--paper) !important; padding: 8px 16px; border-radius: 6px; font-weight: 600 !important; }
+  .nav-cta:hover { background: var(--teal-deep) !important; }
+  @media (max-width: 720px) { .navlinks .hide-mobile { display: none; } }
+
+  /* HERO */
+  .hero { position: relative; overflow: hidden; padding: 96px 0 80px; border-bottom: 1px solid var(--line); }
+  .hero-chart { position: absolute; inset: 0; z-index: 0; opacity: 0.5; }
+  .hero-chart svg { width: 100%; height: 100%; display: block; }
+  .hero-chart-fade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(246,244,239,0.2) 0%, var(--paper) 88%); }
+  .chart-path {
+    fill: none; stroke: var(--teal); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round;
+    stroke-dasharray: 1400; stroke-dashoffset: 1400;
+    animation: draw 2.6s cubic-bezier(0.65, 0, 0.35, 1) 0.2s forwards;
+  }
+  .chart-area { fill: url(#areaFade); opacity: 0; animation: fadeIn 1.5s ease 1.6s forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes fadeIn { to { opacity: 1; } }
+
+  .hero-inner { position: relative; z-index: 1; }
+  .hero-top { display: flex; gap: 44px; align-items: flex-start; flex-wrap: wrap; }
+  .hero-text { flex: 1; min-width: 280px; }
+  .hero-photo {
+    width: 148px; height: 148px; border-radius: 50%;
+    object-fit: cover; border: 4px solid var(--paper-raised);
+    box-shadow: 0 8px 22px rgba(16,22,42,0.15);
+    flex-shrink: 0;
+  }
+  @media (max-width: 600px) {
+    .hero-top { flex-direction: column-reverse; align-items: flex-start; }
+  }
+  .hero h1 { font-size: clamp(34px, 5.2vw, 56px); line-height: 1.08; font-weight: 600; max-width: 780px; margin-top: 22px; letter-spacing: -0.015em; }
+  .hero h1 em { font-style: italic; color: var(--teal-deep); }
+  .hero-sub { max-width: 600px; margin-top: 22px; font-size: 17px; color: var(--ink-soft); }
+  .hero-actions { display: flex; gap: 14px; margin-top: 34px; flex-wrap: wrap; }
+
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 22px; border-radius: 7px; font-weight: 600; font-size: 14.5px; text-decoration: none; transition: transform 0.2s ease, background 0.2s ease; }
+  .btn-solid { background: var(--ink); color: var(--paper); }
+  .btn-solid:hover { background: var(--teal-deep); transform: translateY(-2px); }
+  .btn-outline { background: transparent; color: var(--ink); border: 1.4px solid var(--ink); }
+  .btn-outline:hover { border-color: var(--teal-deep); color: var(--teal-deep); transform: translateY(-2px); }
+  .btn-sm { padding: 9px 16px; font-size: 13px; }
+
+  .hero-stats { display: flex; gap: 40px; margin-top: 56px; flex-wrap: wrap; }
+  .hero-stat .num { font-family: 'IBM Plex Mono', monospace; font-size: 24px; font-weight: 600; color: var(--ink); }
+  .hero-stat .lbl { font-size: 12px; color: var(--slate); margin-top: 2px; }
+
+  section { padding: 84px 0; }
+  section + section { border-top: 1px solid var(--line); }
+  .section-head { max-width: 640px; margin-bottom: 48px; }
+  .section-head h2 { font-size: clamp(28px, 3.4vw, 38px); margin-top: 14px; font-weight: 600; letter-spacing: -0.01em; }
+  .section-head p { color: var(--slate); margin-top: 14px; font-size: 15.5px; }
+
+  /* ABOUT */
+  .about-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items: start; }
+  .about-grid p { font-size: 16px; color: var(--ink-soft); margin: 0 0 16px; }
+  .fact-list { background: var(--paper-raised); border: 1px solid var(--line); border-radius: 10px; padding: 26px 28px; }
+  .fact-list dt { font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--teal-deep); margin-top: 18px; }
+  .fact-list dt:first-child { margin-top: 0; }
+  .fact-list dd { margin: 4px 0 0; font-size: 15px; color: var(--ink); font-weight: 500; }
+
+  @media (max-width: 780px) { .about-grid { grid-template-columns: 1fr; } }
+
+  /* SKILLS */
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+  .skill-card { background: var(--paper-raised); border: 1px solid var(--line); border-radius: 10px; padding: 22px; transition: border-color 0.2s ease, transform 0.2s ease; }
+  .skill-card:hover { border-color: var(--teal); transform: translateY(-3px); }
+  .skill-card .tag { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--gold); letter-spacing: 0.06em; }
+  .skill-card h3 { font-size: 17px; margin-top: 8px; font-weight: 600; }
+  .skill-card p { font-size: 13.8px; color: var(--slate); margin: 8px 0 0; }
+
+  /* PROJECTS */
+  .projects-list { display: flex; flex-direction: column; gap: 26px; }
+
+  .project-card { background: var(--paper-raised); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; }
+  @media (max-width: 780px) { .project-card { grid-template-columns: 1fr; } }
+
+  .project-visual { background: var(--ink); color: var(--paper); padding: 36px 34px; display: flex; flex-direction: column; justify-content: space-between; position: relative; min-height: 260px; }
+  .project-visual.alt { background: var(--teal-deep); }
+  .project-visual.alt2 { background: #3B2E5A; }
+
+  .project-visual .tag { font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.7); display: inline-block; margin-bottom: 12px; }
+  .project-visual h3 { color: var(--paper); font-size: 22px; line-height: 1.28; }
+
+  .mini-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 28px; }
+  .mini-stats div { border-top: 1px solid rgba(255,255,255,0.2); padding-top: 10px; }
+  .mini-stats .v { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 16px; color: #fff; display: block; }
+  .mini-stats .l { font-size: 10.5px; color: rgba(255,255,255,0.65); margin-top: 2px; }
+
+  .project-body { padding: 34px 34px; }
+  .project-body p { color: var(--ink-soft); font-size: 14.5px; margin: 0 0 18px; }
+
+  .project-findings { list-style: none; padding: 0; margin: 0 0 22px; }
+  .project-findings li { font-size: 14px; color: var(--ink); padding: 9px 0; border-top: 1px solid var(--line); display: flex; gap: 10px; }
+  .project-findings li:last-child { border-bottom: 1px solid var(--line); }
+  .project-findings li::before { content: '→'; color: var(--teal-deep); font-weight: 700; flex-shrink: 0; }
+
+  .tool-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+  .tool-pills span { background: #EEF2F0; color: var(--teal-deep); font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 600; padding: 5px 10px; border-radius: 5px; }
+
+  .project-links { display: flex; gap: 10px; flex-wrap: wrap; }
+
+  /* CONTACT */
+  .contact-section { background: var(--ink); color: var(--paper); }
+  .contact-inner { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 32px; }
+  .contact-section h2 { color: var(--paper); font-size: clamp(30px, 4vw, 44px); max-width: 520px; }
+  .contact-section .eyebrow { color: var(--teal); }
+  .contact-section .eyebrow::before { background: var(--teal); }
+  .contact-links { display: flex; flex-direction: column; gap: 14px; font-family: 'IBM Plex Mono', monospace; font-size: 15px; }
+  .contact-links a { text-decoration: none; color: var(--paper); border-bottom: 1px solid rgba(255,255,255,0.25); padding-bottom: 3px; transition: border-color 0.2s ease, color 0.2s ease; width: fit-content; }
+  .contact-links a:hover { color: var(--teal); border-color: var(--teal); }
+
+  footer { text-align: center; padding: 26px 0; font-size: 12.5px; color: var(--slate); background: var(--paper); }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#top" class="brand">Francis Ose<span>.</span></a>
+    <ul class="navlinks">
+      <li><a href="#about">About</a></li>
+      <li class="hide-mobile"><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-chart" aria-hidden="true">
+    <svg viewBox="0 0 1080 420" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="areaFade" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#1E9E8E" stop-opacity="0.22"/>
+          <stop offset="100%" stop-color="#1E9E8E" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <path class="chart-area" d="M0,340 L90,330 L180,336 L270,300 L360,315 L450,290 L540,296 L630,180 L720,120 L810,60 L900,150 L990,260 L1080,300 L1080,420 L0,420 Z"/>
+      <path class="chart-path" d="M0,340 L90,330 L180,336 L270,300 L360,315 L450,290 L540,296 L630,180 L720,120 L810,60 L900,150 L990,260 L1080,300"/>
+    </svg>
+  </div>
+  <div class="hero-chart-fade" aria-hidden="true"></div>
+
+  <div class="wrap hero-inner">
+    <div class="hero-top">
+      <div class="hero-text">
+        <span class="eyebrow">Data Analyst · Power BI, SQL &amp; DAX</span>
+        <h1>I turn messy data into decisions <em>people can act on</em>.</h1>
+        <p class="hero-sub">
+          I'm Francis Osewayeme, a data analyst who turns raw, messy data into
+          dashboards and insights that hold up in front of decision-makers. I
+          also volunteer as a data analyst with JCI Garden City, applying the
+          same skills to community development and youth empowerment work.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#projects">View Projects</a>
+          <a class="btn btn-outline" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+      <img class="hero-photo" src="profile.jpg" alt="Portrait of Francis Osewayeme">
+    </div>
+
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num">3</div><div class="lbl">Featured Projects</div></div>
+      <div class="hero-stat"><div class="num">500K+</div><div class="lbl">Rows Analyzed (UK Retail)</div></div>
+      <div class="hero-stat"><div class="num">54bn</div><div class="lbl">Revenue Modeled (Real Estate)</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div>
+      <span class="eyebrow">About</span>
+      <h2>Trained to ask "so what?" before touching a chart.</h2>
+      <p>
+        I'm a data analyst who specializes in Power BI, SQL, and Python —
+        turning raw, messy datasets into dashboards and reports that
+        decision-makers can actually act on. I currently work as a Data
+        Analyst at PianoWella, building interactive dashboards and
+        data-driven recommendations that support business decisions.
+      </p>
+      <p>
+        My process starts in SQL and Python — profiling data, cleaning
+        inconsistencies, and running the queries that surface the first real
+        patterns — before anything gets visualized in Power BI. Alongside my
+        project work, I volunteer as a Data Analyst with JCI Garden City,
+        applying the same skills to community development and youth
+        empowerment initiatives.
+      </p>
+      <p>
+        My process starts in SQL — profiling data, cleaning inconsistencies,
+        and running the queries that surface the first real patterns — before
+        anything gets visualized in Power BI. I care most about the moment a
+        messy dataset turns into a clear, defensible answer.
+      </p>
+    </div>
+
+    <dl class="fact-list">
+      <dt>Current Role</dt>
+      <dd>Data Analyst, PianoWella</dd>
+
+      <dt>Volunteer Role</dt>
+      <dd>Data Analyst, JCI Garden City</dd>
+
+      <dt>Focus</dt>
+      <dd>Power BI, SQL, Python, DAX, Data Storytelling</dd>
+
+      <dt>Open To</dt>
+      <dd>Freelance &amp; analyst opportunities</dd>
+    </dl>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Toolkit</span>
+      <h2>What I work with</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <span class="tag">QUERY</span>
+        <h3>SQL</h3>
+        <p>Data profiling, cleaning, and exploratory analysis on raw, messy datasets.</p>
+      </div>
+      <div class="skill-card">
+        <span class="tag">VISUALIZE</span>
+        <h3>Power BI</h3>
+        <p>Interactive dashboards, DAX measures, and stakeholder-specific views.</p>
+      </div>
+      <div class="skill-card">
+        <span class="tag">TRANSFORM</span>
+        <h3>Power Query</h3>
+        <p>Shaping and transforming raw data into clean, reliable models.</p>
+      </div>
+      <div class="skill-card">
+        <span class="tag">SCRIPT</span>
+        <h3>Python</h3>
+        <p>Data cleaning, automation, and analysis using pandas and core libraries.</p>
+      </div>
+      <div class="skill-card">
+        <span class="tag">COMMUNICATE</span>
+        <h3>Data Storytelling</h3>
+        <p>Turning findings into recommendations non-analysts can act on.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Featured Projects</span>
+      <h2>Selected work</h2>
+      <p>A mix of retail, real estate, and public health analytics — each built around a real business or community question.</p>
+    </div>
+
+    <div class="projects-list">
+
+      <!-- UK Online Retail -->
+      <div class="project-card">
+        <div class="project-visual">
+          <div>
+            <span class="tag">SQL + Power BI · Tata Forage</span>
+            <h3>UK Online Retail Sales &amp; Growth Analysis</h3>
+          </div>
+          <div class="mini-stats">
+            <div><span class="v">£10.65M</span><span class="l">Revenue</span></div>
+            <div><span class="v">85%</span><span class="l">UK Share</span></div>
+            <div><span class="v">11.92%</span><span class="l">YoY Growth</span></div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p>
+            Analyzed 500,000+ transactional records from a UK-based online
+            retailer — using SQL for exploratory analysis and Power BI to
+            build a dashboard answering direct questions from CEO and CMO
+            personas.
+          </p>
+          <ul class="project-findings">
+            <li>Sharp Q4 seasonal surge, peaking at £1.50M in November</li>
+            <li>Top international markets: Netherlands, Ireland, Germany</li>
+            <li>High-value customers flagged for retention targeting</li>
+            <li>Expansion opportunities mapped by country-level demand</li>
+          </ul>
+          <div class="tool-pills"><span>SQL</span><span>Power BI</span><span>DAX</span></div>
+          <div class="project-links">
+            <a class="btn btn-solid btn-sm" href="https://github.com/francisosedata-tech/UK-Online-Retail-Sales-Analysis-Forage" target="_blank" rel="noopener">View on GitHub</a>
+            <a class="btn btn-outline btn-sm" href="https://github.com/francisosedata-tech/UK-Online-Retail-Sales-Analysis-Forage/blob/main/REPORT.md" target="_blank" rel="noopener">Read Report</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real Estate -->
+      <div class="project-card">
+        <div class="project-visual alt">
+          <div>
+            <span class="tag">Power BI · DAX</span>
+            <h3>Real Estate Growth Analysis Dashboard</h3>
+          </div>
+          <div class="mini-stats">
+            <div><span class="v">54bn</span><span class="l">Revenue</span></div>
+            <div><span class="v">42.69%</span><span class="l">Churn Rate</span></div>
+            <div><span class="v">24.25%</span><span class="l">Rev. Growth</span></div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p>
+            Built a two-dashboard Power BI solution tracking customer churn,
+            revenue, and property performance for a real estate business,
+            with an executive summary view for leadership.
+          </p>
+          <ul class="project-findings">
+            <li>8K total customers, 3K churned — 42.69% churn rate</li>
+            <li>Apartments lead in both sales volume and average revenue</li>
+            <li>Best performing city: Dhaka; agent: A00004</li>
+            <li>Revenue peaked June 2022 with volatility afterward</li>
+          </ul>
+          <div class="tool-pills"><span>Power BI</span><span>DAX</span><span>Data Storytelling</span></div>
+          <div class="project-links">
+            <a class="btn btn-solid btn-sm" href="https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/tree/main/Real%20Estate%20Growth%20Analysis" target="_blank" rel="noopener">View on GitHub</a>
+            <a class="btn btn-outline btn-sm" href="https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/blob/main/Real-Estate-Growth-Analysis-Report.md" target="_blank" rel="noopener">Read Report</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Teen Mental Health -->
+      <div class="project-card">
+        <div class="project-visual alt2">
+          <div>
+            <span class="tag">Power BI · SQL</span>
+            <h3>Teen Mental Wellbeing Analysis</h3>
+          </div>
+          <div class="mini-stats">
+            <div><span class="v">2.58%</span><span class="l">Depression Rate</span></div>
+            <div><span class="v">↑</span><span class="l">Female Risk</span></div>
+            <div><span class="v">IG/TT</span><span class="l">Top Platforms</span></div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p>
+            Explored correlations between social media usage, academic
+            performance, sleep, and mental health indicators in teens,
+            delivering an interactive dashboard for community-focused
+            recommendations.
+          </p>
+          <ul class="project-findings">
+            <li>Females show higher depression rates in the dataset</li>
+            <li>High social media use correlates with stress and anxiety</li>
+            <li>Instagram and TikTok are the dominant platforms</li>
+            <li>Recommended targeted interventions for high-usage teens</li>
+          </ul>
+          <div class="tool-pills"><span>Power BI</span><span>SQL</span><span>DAX</span></div>
+          <div class="project-links">
+            <a class="btn btn-solid btn-sm" href="https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/tree/main/Teen%20Mental%20Health%20Project" target="_blank" rel="noopener">View on GitHub</a>
+            <a class="btn btn-outline btn-sm" href="https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/blob/main/Teen%20Mental%20Health%20Analysis%20Report.md" target="_blank" rel="noopener">Read Report</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <div class="wrap contact-inner">
+    <div>
+      <span class="eyebrow">Get in touch</span>
+      <h2>Have data that needs a story? Let's talk.</h2>
+    </div>
+    <div class="contact-links">
+      <a href="https://github.com/francisosedata-tech" target="_blank" rel="noopener">GitHub → francisosedata-tech</a>
+      <a href="https://www.linkedin.com/in/ose-francis" target="_blank" rel="noopener">LinkedIn → /in/ose-francis</a>
+      <a href="https://x.com/DataAnalystOse" target="_blank" rel="noopener">X → @DataAnalystOse</a>
+      <a href="mailto:Francisose.data@gmail.com">Email → Francisose.data@gmail.com</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Francis Osewayeme. Built with SQL, Power BI, and a lot of curiosity.
+</footer>
+
+</body>
+</html>
