@@ -85,6 +85,9 @@ With expertise in Power BI, SQL, Power Query, and DAX, I specialize in explorato
 
 
 ### 3. 📊 UK Online Retail Sales & Growth Analysis
+
+**Dashboard:**
+
 Analyzed 500,000+ transaction records from a UK-based online retailer using *SQL* for exploratory data analysis and *Power BI* for interactive dashboard visualization. Identified seasonal revenue trends, top-performing markets, and expansion opportunities — completed as part of the *Tata Forage Data Visualization Job Simulation*.
 
 *Tech Stack:* SQL · Power BI · DAX  
