@@ -22,7 +22,7 @@ With expertise in Power BI, SQL, Power Query, and DAX, I specialize in explorato
 
 ## Featured Projects
 
-### Real Estate Growth Analysis Dashboard
+### 1. Real Estate Growth Analysis Dashboard
 
 **Dashboard 1: Overview & Key Metrics**
 ![Real Estate Growth Analysis Dashboard 1](https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/blob/a0ba88be06484c3d88fb1713fbdbda6ef7563ce0/Images/Dashboard1.png)
@@ -56,7 +56,8 @@ With expertise in Power BI, SQL, Power Query, and DAX, I specialize in explorato
 - **Version Control**: Git & GitHub
 
 
-### Teen Mental Wellbeing Analysis (Power BI + SQL)
+
+### 2. Teen Mental Wellbeing Analysis (Power BI + SQL)
 **Project Overview:** Analyzed teen mental health dataset to explore correlations between social media usage, academic performance, sleep, stress, anxiety, addiction, and depression rates. Delivered interactive Power BI dashboards for insights and recommendations.
 
 ![Teen Mental Wellbeing Dashboard](https://github.com/francisosedata-tech/Ose_Portfolio/blob/47d58b01bfd0474e0b2153b23a473c7f556e95bb/ccb740e6-9e5c-4ac6-8d8f-7a843d147e86.jpeg)  
@@ -80,6 +81,18 @@ With expertise in Power BI, SQL, Power Query, and DAX, I specialize in explorato
 **Tech Stack:** Power BI, DAX, Power Query, SQL  
 **View Full Report:** [Teen-Mental-Health-Analysis-Report.md](https://github.com/francisosedata-tech/Ose_Portfolio/blob/90763196b88712c49edf6f839aaa13029e20c27f/Teen%20Mental%20Health%20Analysis%20Report.md)
 **Files:** [Project Folder](https://github.com/francisosedata-tech/Ose_Portfolio/tree/2d65b17de4bee958612600bf370f94fa86680b6b/Teen%20Mental%20Health%20Project)
+
+
+
+### 3. 📊 UK Online Retail Sales & Growth Analysis
+Analyzed 500,000+ transaction records from a UK-based online retailer using *SQL* for exploratory data analysis and *Power BI* for interactive dashboard visualization. Identified seasonal revenue trends, top-performing markets, and expansion opportunities — completed as part of the *Tata Forage Data Visualization Job Simulation*.
+
+*Tech Stack:* SQL · Power BI · DAX  
+*Key Result:* £10.65M revenue analyzed across 38 regions, surfacing a clear Q4 seasonal pattern and prioritized expansion markets.
+
+🔗 [View Full Project & Report](https://github.com/francisosedata-tech/UK-Online-Retail-Sales-Analysis-Forage)
+
+---
 
 
 ## 📫 Let's Connect
