@@ -94,8 +94,8 @@ Analyzed 500,000+ transaction records from a UK-based online retailer using *SQL
 *Tech Stack:* SQL · Power BI · DAX  
 *Key Result:* £10.65M revenue analyzed across 38 regions, surfacing a clear Q4 seasonal pattern and prioritized expansion markets.
 
+---
 🔗 [View Full Project & Report](https://github.com/francisosedata-tech/UK-Online-Retail-Sales-Analysis-Forage)
-
 ---
 
 
