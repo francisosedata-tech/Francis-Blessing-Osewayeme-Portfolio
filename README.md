@@ -98,6 +98,8 @@ Analyzed 500,000+ transaction records from a UK-based online retailer using *SQL
 🔗 [View Full Project & Report](https://github.com/francisosedata-tech/UK-Online-Retail-Sales-Analysis-Forage)
 ---
 
+🔗 [View Full Project & Report](https://github.com/francisosedata-tech/UK-Online-Retail-Sales-Analysis-Forage)
+
 
 ## 📫 Let's Connect
 
