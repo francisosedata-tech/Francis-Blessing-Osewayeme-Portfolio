@@ -20,10 +20,10 @@ With expertise in Power BI, SQL, Power Query, and DAX, I specialize in explorato
 
 ## Featured Projects
 
-### 1. Real Estate Growth Analysis Dashboard
+### 1. Real Estate Growth Analysis
 
-**Dashboard 1: Overview & Key Metrics**
-![Real Estate Growth Analysis Dashboard 1](https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/blob/a0ba88be06484c3d88fb1713fbdbda6ef7563ce0/Images/Dashboard1.png)
+Interactive Power BI dashboard analyzing real estate sales performance, revenue trends, customer churn, and agent effectiveness. Delivered actionable recommendations to improve retention and revenue stability.
+
 **Key Insights:**
 - Total Customers: 8K | Churned Customers: 3K | Churn Rate: 42.69%
 - Total Revenue: 54bn
@@ -31,10 +31,7 @@ With expertise in Power BI, SQL, Power Query, and DAX, I specialize in explorato
 - Best Performing City: Dhaka
 - Best Performing Property: Apartment
 
----
 
-**Dashboard 2: Executive Summary & Deep Insights**
-![Real Estate Growth Analysis Dashboard 2](https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/blob/bea592302b3a9713bd07a43e3854628b41bc65fa/Images/Dashboard2.png)
 **Key Insights:**
 - Revenue Growth: **24.25%**
 - Apartments lead in both sales volume and average revenue per transaction.
