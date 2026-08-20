@@ -3,7 +3,7 @@
 
 ## About Me
 
-I am *Francis Osewayeme*, a passionate Data Analyst dedicated to transforming messy data into clear, actionable insights and strategic recommendations that help stakeholders make informed decisions.
+I am *Francis Blessing Osewayeme*, a passionate Data Analyst dedicated to transforming messy data into clear, actionable insights and strategic recommendations that help stakeholders make informed decisions.
 
 With expertise in Power BI, SQL, Power Query, and DAX, I specialize in exploratory data analysis, dashboard creation, and compelling data storytelling.
 
@@ -74,7 +74,7 @@ Interactive Power BI dashboard analyzing real estate sales performance, revenue 
 - **Analysis**: DAX, Data Storytelling
 - **Version Control**: Git & GitHub
   
----
+
 **🔗[View Full Project Report](https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/blob/2d9184145c12974f8f6099a7bdb9031e397b7fba/Real-Estate-Growth-Analysis-Report.md)**
 
 ---
