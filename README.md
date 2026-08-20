@@ -98,6 +98,30 @@ Analyzed 500,000+ transaction records from a UK-based online retailer using *SQL
 🔗 [View Full Project & Report](https://github.com/francisosedata-tech/UK-Online-Retail-Sales-Analysis-Forage)
 ---
 
+### 4. Harmony Grove Music & Entertainment – Business Intelligence Case Study
+
+![Harmony Grove](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/56262fb59e4d8fc6ed8b0d8c673879a62e72a45f/Data/Harmony%20Grove%20logo.jpeg)
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+---
+## 📌 The Business Problem
+## 🔍 The Investigation
+## 📊 Dashboard Pages
+## 💡 Recommendations
+## 📁 Project Structure
+## 🚀 How to Access the Project
+## 📄 Full Report
+## 🛠️ Tools & Technology          
+## 👨‍💻 About the Analyst
+## 📄 License
+## 🛠️ Technical Implementation
+
+
+
 🔗 [View Full Project & Report](https://github.com/francisosedata-tech/UK-Online-Retail-Sales-Analysis-Forage)
 
 
