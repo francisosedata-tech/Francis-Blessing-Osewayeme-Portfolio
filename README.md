@@ -38,10 +38,6 @@ Interactive Power BI dashboard analyzing real estate sales performance, revenue 
 - Strong revenue peak in June 2022, but volatility observed afterward.
   
 **Recommendation:** Focus on customer retention by property type, seasonal campaigns, and better product mix to reduce churn rate to 25%.
-  
----
-[View Full Project Report](https://github.com/francisosedata-tech/Ose_Portfolio/blob/a9dd75445662a899fb2b23a472a4e6335f58ccb4/Real-Estate-Growth-Analysis-Report.md)
----
 
 ## 🛠️ Skills & Tools
 
@@ -49,6 +45,11 @@ Interactive Power BI dashboard analyzing real estate sales performance, revenue 
 - **Data Processing**: Power Query, SQL
 - **Analysis**: DAX, Data Storytelling
 - **Version Control**: Git & GitHub
+  
+---
+[View Full Project Report](https://github.com/francisosedata-tech/Francis-Blessing-Osewayeme-Portfolio/blob/2d9184145c12974f8f6099a7bdb9031e397b7fba/Real-Estate-Growth-Analysis-Report.md)
+---
+
 
 
 ### 2. 📊 UK Online Retail Sales & Growth Analysis
