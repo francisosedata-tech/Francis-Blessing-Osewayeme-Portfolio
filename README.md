@@ -107,6 +107,8 @@ Analyzed 500,000+ transaction records from a UK-based online retailer using *SQL
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
+Power BI dashboard analyzing revenue, tutor retention, and client engagement for Harmony Grove Music & Entertainment across 6 Nigerian cities. Uncovered a churn tipping point at 3.0-3.49 rating (50% exit rate), 48% corporate utilization, and Word of Mouth outperforming paid channels by 76%.
+
 ---
 ## 📌 The Business Problem
 ## 🔍 The Investigation
@@ -122,7 +124,7 @@ Analyzed 500,000+ transaction records from a UK-based online retailer using *SQL
 
 ---
 
-🔗 [View Full Project & Report](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/26901ab21c697aa20957bd19badd1b2d8a10df65/README.md)
+**🔗 [View Full Project & Report](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/26901ab21c697aa20957bd19badd1b2d8a10df65/README.md)**
 
 ---
 
