@@ -120,10 +120,11 @@ Analyzed 500,000+ transaction records from a UK-based online retailer using *SQL
 ## 📄 License
 ## 🛠️ Technical Implementation
 
+---
 
+🔗 [View Full Project & Report](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/26901ab21c697aa20957bd19badd1b2d8a10df65/README.md)
 
-🔗 [View Full Project & Report](https://github.com/francisosedata-tech/UK-Online-Retail-Sales-Analysis-Forage)
-
+---
 
 ## 📫 Let's Connect
 
