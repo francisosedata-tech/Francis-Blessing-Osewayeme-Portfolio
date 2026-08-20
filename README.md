@@ -20,7 +20,7 @@ With expertise in Power BI, SQL, Power Query, and DAX, I specialize in explorato
 
 ## Featured Projects
 
-### 3. Harmony Grove Music & Entertainment – Business Intelligence Case Study
+### 1. Harmony Grove Music & Entertainment – Business Intelligence Case Study
 
 ![Harmony Grove](https://github.com/francisosedata-tech/Harmony-Grove-Music-Entertainment---Business-Intelligence-case-study/blob/56262fb59e4d8fc6ed8b0d8c673879a62e72a45f/Data/Harmony%20Grove%20logo.jpeg)
 
