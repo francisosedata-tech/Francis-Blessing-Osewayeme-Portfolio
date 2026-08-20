@@ -1,4 +1,4 @@
-# Francis Osewayeme | Data Analyst
+# Francis Blessing Osewayeme | Data Analyst | BI Analyst | People Analyst
 ![Francis Ose Profile](https://github.com/francisosedata-tech/Task-1-Francis--Osewayeme/blob/94a35028601ac9656155f2eeea99d73c8199ed48/Profile%20photo.JPG.jpeg)
 
 ## About Me
